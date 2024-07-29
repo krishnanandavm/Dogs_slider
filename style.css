@@ -31,6 +31,12 @@ header a{
     overflow: hidden;
     position: relative;
 }
+.carousel a{
+    color: black;
+}
+.carousel .contact{
+    color: white;
+}
 .carousel .list .item{
     width: 100%;
     height: 100%;
@@ -63,6 +69,7 @@ header a{
     font-size: 5em;
     font-weight: bold;
     line-height: 1.3em;
+    color: #fff;
 }
 .carousel .list .item .topic{
     color: #f1683a;
@@ -73,6 +80,11 @@ header a{
     grid-template-rows: 40px;
     gap: 5px;
     margin-top: 20px;
+    color: #fff;
+    
+}
+a{
+    color: black;
 }
 .carousel .list .item .buttons button{
     border: none;
